@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+   
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+.our{
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 40px ;
+margin-top: 50px;
+margin-bottom: 50px;
+font-weight: bolder;
+    
+}
+.container{
+
+    margin:40px ;
+}
+.menu{
+    margin-bottom: 20px;
+    margin-left: 100%;
+    background-color: brown;
+    color: chartreuse;
+    padding: 10px 20px 10px 20px;
+    float: right;
+    position: relative;
+    font-size: 30px;
+   border: 1px black solid;
+   
+
+
+
+
+}
+
+.text{
+border: 1px black solid;
+position: relative;
+    
+background-color:darkgrey;
+color: black;
+margin: 30px;
+font-family: 'Times New Roman', Times, serif ;
+padding: 0px 0px 20px 10px ;
+width:27%;
+height:27%;
+float :left;
+
+font-size: 20px;
+font-weight: bold;
+text-align: left;
+
+
+
+
+
+
+    
+}
+ @media (min-width:932px) and (max-width:1200px) {
+     .container{
+         margin-right: 50px;
+     }
+    .text{
+
+      width: 27%;
+      margin-left: 10px;
+      
+
+    }
+
+
+
+
+    } 
+    @media (min-width:768px) and (max-width:932px){
+        .container{
+            margin-left: 20px;
+        }
+        .text{
+            width: 35%;
+
+        }
+        
+        
+         .ab {
+            width: 80%;
+            position: relative;
+            padding:-50%;
+         
+            
+         }
+        }
+        @media (max-width:768px){
+            .container{
+                margin:0px;
+            }
+            .text{
+                width:80%;
+                padding: 0px 0px 10px 20px ;
+            }
+        }
+
+
+
+
+
+
+
